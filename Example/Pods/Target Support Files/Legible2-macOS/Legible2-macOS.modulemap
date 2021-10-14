@@ -1,0 +1,6 @@
+framework module Legible2 {
+  umbrella header "Legible2-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Legible2__iOS_ {
+  umbrella header "Pods-Legible2 (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

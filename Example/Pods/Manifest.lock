@@ -1,29 +1,31 @@
 PODS:
-  - Legible (0.1.0):
-    - Nimble (~> 9.0)
-    - Quick (~> 4.0)
-  - Nimble (9.2.0)
+  - Legible2 (0.2.0):
+    - Nimble (>= 9.0)
+    - Quick (>= 4.0)
+  - Nimble (9.2.1)
   - Quick (4.0.0)
 
 DEPENDENCIES:
-  - Legible (from `../`)
+  - Legible2 (from `../`)
   - Nimble
   - Quick
+
+EXTERNAL SOURCES:
+  Legible2:
+    :path: "../"
+
+CHECKOUT OPTIONS: 
+
+SPEC CHECKSUMS:
+  Legible2: cb2e64022749ad72a108eccfc027a099579f7a15
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+
+COCOAPODS: 1.10.2
+
+PODFILE CHECKSUM: bc1a3e0c932991cc9e172f03fa77b07240178544
 
 SPEC REPOS:
   trunk:
     - Nimble
     - Quick
-
-EXTERNAL SOURCES:
-  Legible:
-    :path: "../"
-
-SPEC CHECKSUMS:
-  Legible: 8d977c381b84b8972c76dbf520cefa5ad15fc74c
-  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
-  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
-
-PODFILE CHECKSUM: 1834af00648fc84e46e6140842bd5af416a2006d
-
-COCOAPODS: 1.10.1
