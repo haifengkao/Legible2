@@ -1,5 +1,5 @@
 PODS:
-  - Legible2 (0.2.0):
+  - Legible2 (0.3.0):
     - Nimble (>= 9.0)
     - Quick (>= 4.0)
   - Nimble (9.2.1)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 CHECKOUT OPTIONS: 
 
 SPEC CHECKSUMS:
-  Legible2: cb2e64022749ad72a108eccfc027a099579f7a15
+  Legible2: a61635413496be2a86ee1be850f373b06db6e138
   Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
 
