@@ -20,7 +20,7 @@
     "osx": "11.0",
     "tvos": "13.0"
   },
-  "source_files": "Legible2/Classes/**/*",
+  "source_files": "Sources/Legible2/**/*",
   "weak_frameworks": "XCTest",
   "cocoapods_version": ">= 1.4.0",
   "swift_versions": [
@@ -34,5 +34,20 @@
       ">= 4.0"
     ]
   },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Tests/Legible2Tests/*.{swift}",
+      "dependencies": {
+        "Quick": [
+
+        ],
+        "Nimble": [
+
+        ]
+      }
+    }
+  ],
   "swift_version": "5.0"
 }

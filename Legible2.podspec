@@ -34,8 +34,14 @@ TODO: Add long description of the pod here.
   s.osx.deployment_target = '11.0'
   s.tvos.deployment_target = '13.0'
 
-  s.source_files = 'Legible2/Classes/**/*'
 
+  s.source_files = 'Sources/Legible2/**/*'
+
+  s.test_spec 'Tests' do |test_spec|
+    test_spec.source_files = 'Tests/Legible2Tests/*.{swift}'
+    test_spec.dependency 'Quick' # This dependency will only be linked with your tests.
+    test_spec.dependency 'Nimble' # This dependency will only be linked with your tests.
+  end
   # s.resource_bundles = {
   #   'Legible2' => ['Legible2/Assets/*.png']
   # }

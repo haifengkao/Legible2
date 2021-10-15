@@ -3,7 +3,9 @@ This application makes use of the following third party libraries:
 
 ## Legible2
 
-Copyright (c) ${YEAR} ${USER_NAME} <${USER_EMAIL}>
+This project is licensed under the MIT license.
+
+Copyright (c) 2013 - 2014 CocoaPods Dev Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

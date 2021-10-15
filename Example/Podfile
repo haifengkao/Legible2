@@ -7,7 +7,7 @@ use_frameworks!
 
 
 def allPods
-  pod 'Legible2', :path => '../'
+  pod 'Legible2', :path => '../', :testspecs => ['Tests']
 end
 
 target 'Legible2 (iOS)' do
@@ -15,29 +15,17 @@ target 'Legible2 (iOS)' do
   allPods
 end
 
-target 'Tests iOS' do
-  platform :ios, '14.0'
-  allPods
-  pod 'Quick'
-    pod 'Nimble'
-end
-
 target 'Legible2 (macOS)' do
   platform :osx, '11.0'
   allPods
 end
 
-target 'Tests macOS' do
-  platform :osx, '11.0'
-  allPods
-  pod 'Quick'
-    pod 'Nimble'
-end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+      config.build_settings.delete 'MACOS_DEPLOYMENT_TARGET'
     end
   end
 end

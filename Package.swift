@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 // manual build: swift build -Xswiftc "-sdk" -Xswiftc "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios12.1-simulator"
 import PackageDescription
@@ -27,8 +27,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "Legible2",
-            dependencies: [],
-            path: "Legible2/Classes"
+            dependencies: []
         ),
         .target(
             name: "Legible2Example",
@@ -36,22 +35,12 @@ let package = Package(
             path: "Example/Shared"
         ),
         .testTarget(
-            name: "Tests iOS",
+            name: "Legible2Tests",
             dependencies: [
                 "Legible2",
                 "Quick",
                 "Nimble",
-            ],
-            path: "Example/Tests iOS"
-        ),
-        .testTarget(
-            name: "Tests macOS",
-            dependencies: [
-                "Legible2",
-                "Quick",
-                "Nimble",
-            ],
-            path: "Example/Tests macOS"
+            ]
         ),
     ]
 )
