@@ -1,8 +1,8 @@
 PODS:
-  - Legible2 (0.4.0):
+  - Legible2 (0.5.0):
     - Nimble (>= 9.0)
     - Quick (>= 4.0)
-  - Legible2/Tests (0.4.0):
+  - Legible2/Tests (0.5.0):
     - Nimble (>= 9.0)
     - Quick (>= 4.0)
   - Nimble (9.2.1)
@@ -16,8 +16,10 @@ EXTERNAL SOURCES:
   Legible2:
     :path: "../"
 
+CHECKOUT OPTIONS: 
+
 SPEC CHECKSUMS:
-  Legible2: e4f63a0b575431ad372921f9bedbf25cabb8cc95
+  Legible2: 406c1aec0d3c44bdc4bf6969c9130f265adb200a
   Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
 
