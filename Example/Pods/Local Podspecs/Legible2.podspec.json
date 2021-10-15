@@ -38,13 +38,18 @@
     {
       "name": "Tests",
       "test_type": "unit",
-      "source_files": "Tests/Legible2Tests/*.{swift}",
+      "source_files": "Tests/Legible2Tests/**/*.{swift}",
       "dependencies": {
         "Quick": [
 
         ],
         "Nimble": [
 
+        ]
+      },
+      "resource_bundles": {
+        "Tests": [
+          "Tests/**/*.png"
         ]
       }
     }

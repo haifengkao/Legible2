@@ -27,7 +27,7 @@ class DataTaskPublisherSpec: QuickSpec {
                 beforeEach {
                     url = Bundle(for: Self.self)
                         .bundleURL
-                        .appendingPathComponent("Info.plist")
+                        .appendingPathComponent("Contents/Info.plist")
                     expectedData = try! Data(contentsOf: url)
                 }
                 itBehavesLike(CombinePublisher.self) {

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,11 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E9C6E766AFA78E1DC96D722 /* Legible2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Legible2.podspec; path = ../Legible2.podspec; sourceTree = "<group>"; };
+		4E9C6E766AFA78E1DC96D722 /* Legible2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Legible2.podspec; path = ../Legible2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F2D6231E780A6DD38A62186 /* Pods-Legible2 (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legible2 (macOS).release.xcconfig"; path = "Target Support Files/Pods-Legible2 (macOS)/Pods-Legible2 (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		76656A046DCFE656DD4051B5 /* Pods_Legible2__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Legible2__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3C3B5145D450BC05C5ED7E /* Pods_Legible2__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Legible2__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80819F5A5B9DADF80ACC3183 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		80819F5A5B9DADF80ACC3183 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADBEB7894D9D174985C12CA7 /* Pods-Legible2 (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legible2 (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Legible2 (macOS)/Pods-Legible2 (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		C73C0F04C09250695B76EAC2 /* Pods-Legible2 (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legible2 (iOS).release.xcconfig"; path = "Target Support Files/Pods-Legible2 (iOS)/Pods-Legible2 (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		DA3A1DAC0300697761B380FB /* Pods-Legible2 (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legible2 (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Legible2 (iOS)/Pods-Legible2 (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +106,6 @@
 				ADBEB7894D9D174985C12CA7 /* Pods-Legible2 (macOS).debug.xcconfig */,
 				5F2D6231E780A6DD38A62186 /* Pods-Legible2 (macOS).release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

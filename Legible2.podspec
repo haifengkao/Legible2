@@ -38,9 +38,12 @@ TODO: Add long description of the pod here.
   s.source_files = 'Sources/Legible2/**/*'
 
   s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'Tests/Legible2Tests/*.{swift}'
+    test_spec.source_files = 'Tests/Legible2Tests/**/*.{swift}'
     test_spec.dependency 'Quick' # This dependency will only be linked with your tests.
     test_spec.dependency 'Nimble' # This dependency will only be linked with your tests.
+    test_spec.resource_bundles = {
+       'Tests' => ['Tests/**/*.png']
+    }
   end
   # s.resource_bundles = {
   #   'Legible2' => ['Legible2/Assets/*.png']
